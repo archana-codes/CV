@@ -1,0 +1,169 @@
+body{
+  margin:0px;
+  text-align:center;
+  font-family:'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  font-size: 500%;/* 100%= 16PX SO 90/16PX = 550% OR 16PX = 1EM to avoid all these we have 'rem 'in css3*/
+  line-height: 2;
+  margin:50 auto 0 auto;
+  font-family: 'Sacramento',cursive;
+  color: #66BFBF;
+}
+h2{
+  font-size:2.5em;
+  font-family: 'Montserrat',sans-serif;
+  font-weight:normal;
+  color: #66BFBF;
+  padding-bottom:10px;
+}
+h3{
+  color:#11999E;
+}
+a{
+  color:#11999E;
+  font-family: sans-serif;
+  margin: 10px 10px;
+  text-decoration:none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+p{
+  line-height: 2;
+}
+hr{
+  width: 6%;
+  border: dotted #EAF6F6;
+  height: 0%;
+  border-bottom:none;
+  margin: 100px auto;
+}
+.comp-img{
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+.chil-img{
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+/*.code-skill-desc{
+  clear:left; /*float shouldbe used only when necessary should be used to wrap text but not for positioning
+}
+/*.code-skill-desc2{
+  clear:right;
+}*/
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:250px
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.Con1 {
+  background-color: #e8e8e8;
+  padding-top:100px;
+  position: relative;
+/*   height: 200px;
+  width:200px;
+  padding:0px;
+  border: 0px solid black;
+ margin:0px;
+  display:inline-block;
+  position: absolute;
+  right:525px;
+  top: 400px;*/
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color:#66BfBf;
+  padding: 50px 0 20px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size:0.75rem;
+  padding:20px 0px;
+}
+.btn {
+   background: #1A88E9;
+   background-image: -webkit-linear-gradient(top, #1A88E9, #60ACEF);
+   background-image: -moz-linear-gradient(top, #1A88E9, #60ACEF);
+   background-image: -ms-linear-gradient(top, #1A88E9, #60ACEF);
+   background-image: -o-linear-gradient(top, #1A88E9, #60ACEF);
+   background-image: -webkit-gradient(to bottom, #1A88E9, #60ACEF);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: 100;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #40C9FF 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/*.Con2 {
+  background-color: #bbbfca;
+  height: 200px;
+  width:200px;
+/*  padding:0px;
+  border: 0px solid black;
+  display:inline-block;
+  margin-left:260px;
+  position: absolute;
+  right:725px;
+  top: 200px;
+}
+.Con3 {
+  background-color: #495464;
+  height: 200px;
+  width:200px;
+/*  padding:0px;
+  border: 0px solid black;
+  display:inline-block;
+ margin-left:500px;
+}*/
